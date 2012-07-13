@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA77AD5915B0257600DCB13C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA77AD5815B0257600DCB13C /* UIKit.framework */; };
+		DA77AD5B15B0257600DCB13C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA77AD5A15B0257600DCB13C /* Foundation.framework */; };
+		DA77AD5D15B0257600DCB13C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA77AD5C15B0257600DCB13C /* CoreGraphics.framework */; };
+		DA77AD6315B0257600DCB13C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA77AD6115B0257600DCB13C /* InfoPlist.strings */; };
+		DA77AD6515B0257600DCB13C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA77AD6415B0257600DCB13C /* main.m */; };
+		DA77AD6915B0257600DCB13C /* PWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA77AD6815B0257600DCB13C /* PWAppDelegate.m */; };
+		DA77AD6C15B0257600DCB13C /* PWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA77AD6B15B0257600DCB13C /* PWViewController.m */; };
+		DA77AD6F15B0257600DCB13C /* PWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA77AD6D15B0257600DCB13C /* PWViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA77AD5415B0257600DCB13C /* touchasaurus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchasaurus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA77AD5815B0257600DCB13C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA77AD5A15B0257600DCB13C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA77AD5C15B0257600DCB13C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA77AD6015B0257600DCB13C /* touchasaurus-Info.plist */ = {isa = PBXFileReference; path = "touchasaurus-Info.plist"; sourceTree = "<group>"; };
+		DA77AD6215B0257600DCB13C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA77AD6415B0257600DCB13C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA77AD6615B0257600DCB13C /* touchasaurus-Prefix.pch */ = {isa = PBXFileReference; path = "touchasaurus-Prefix.pch"; sourceTree = "<group>"; };
+		DA77AD6715B0257600DCB13C /* PWAppDelegate.h */ = {isa = PBXFileReference; path = PWAppDelegate.h; sourceTree = "<group>"; };
+		DA77AD6815B0257600DCB13C /* PWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PWAppDelegate.m; sourceTree = "<group>"; };
+		DA77AD6A15B0257600DCB13C /* PWViewController.h */ = {isa = PBXFileReference; path = PWViewController.h; sourceTree = "<group>"; };
+		DA77AD6B15B0257600DCB13C /* PWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PWViewController.m; sourceTree = "<group>"; };
+		DA77AD6E15B0257600DCB13C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PWViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA77AD5115B0257600DCB13C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA77AD5915B0257600DCB13C /* UIKit.framework in Frameworks */,
+				DA77AD5B15B0257600DCB13C /* Foundation.framework in Frameworks */,
+				DA77AD5D15B0257600DCB13C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA77AD4915B0257500DCB13C = {
+			isa = PBXGroup;
+			children = (
+				DA77AD5E15B0257600DCB13C /* touchasaurus */,
+				DA77AD5715B0257600DCB13C /* Frameworks */,
+				DA77AD5515B0257600DCB13C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA77AD5515B0257600DCB13C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA77AD5415B0257600DCB13C /* touchasaurus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA77AD5715B0257600DCB13C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA77AD5815B0257600DCB13C /* UIKit.framework */,
+				DA77AD5A15B0257600DCB13C /* Foundation.framework */,
+				DA77AD5C15B0257600DCB13C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA77AD5E15B0257600DCB13C /* touchasaurus */ = {
+			isa = PBXGroup;
+			children = (
+				DA77AD6715B0257600DCB13C /* PWAppDelegate.h */,
+				DA77AD6815B0257600DCB13C /* PWAppDelegate.m */,
+				DA77AD6A15B0257600DCB13C /* PWViewController.h */,
+				DA77AD6B15B0257600DCB13C /* PWViewController.m */,
+				DA77AD6D15B0257600DCB13C /* PWViewController.xib */,
+				DA77AD5F15B0257600DCB13C /* Supporting Files */,
+			);
+			path = touchasaurus;
+			sourceTree = "<group>";
+		};
+		DA77AD5F15B0257600DCB13C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA77AD6015B0257600DCB13C /* touchasaurus-Info.plist */,
+				DA77AD6115B0257600DCB13C /* InfoPlist.strings */,
+				DA77AD6415B0257600DCB13C /* main.m */,
+				DA77AD6615B0257600DCB13C /* touchasaurus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA77AD5315B0257600DCB13C /* touchasaurus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA77AD7215B0257600DCB13C /* Build configuration list for PBXNativeTarget "touchasaurus" */;
+			buildPhases = (
+				DA77AD5015B0257600DCB13C /* Sources */,
+				DA77AD5115B0257600DCB13C /* Frameworks */,
+				DA77AD5215B0257600DCB13C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = touchasaurus;
+			productName = touchasaurus;
+			productReference = DA77AD5415B0257600DCB13C /* touchasaurus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA77AD4B15B0257500DCB13C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Walkin;
+			};
+			buildConfigurationList = DA77AD4E15B0257500DCB13C /* Build configuration list for PBXProject "touchasaurus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA77AD4915B0257500DCB13C;
+			productRefGroup = DA77AD5515B0257600DCB13C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA77AD5315B0257600DCB13C /* touchasaurus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA77AD5215B0257600DCB13C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA77AD6315B0257600DCB13C /* InfoPlist.strings in Resources */,
+				DA77AD6F15B0257600DCB13C /* PWViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA77AD5015B0257600DCB13C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA77AD6515B0257600DCB13C /* main.m in Sources */,
+				DA77AD6915B0257600DCB13C /* PWAppDelegate.m in Sources */,
+				DA77AD6C15B0257600DCB13C /* PWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA77AD6115B0257600DCB13C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA77AD6215B0257600DCB13C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DA77AD6D15B0257600DCB13C /* PWViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA77AD6E15B0257600DCB13C /* en */,
+			);
+			name = PWViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA77AD7015B0257600DCB13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA77AD7115B0257600DCB13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA77AD7315B0257600DCB13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touchasaurus/touchasaurus-Prefix.pch";
+				INFOPLIST_FILE = "touchasaurus/touchasaurus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA77AD7415B0257600DCB13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touchasaurus/touchasaurus-Prefix.pch";
+				INFOPLIST_FILE = "touchasaurus/touchasaurus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA77AD4E15B0257500DCB13C /* Build configuration list for PBXProject "touchasaurus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA77AD7015B0257600DCB13C /* Debug */,
+				DA77AD7115B0257600DCB13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA77AD7215B0257600DCB13C /* Build configuration list for PBXNativeTarget "touchasaurus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA77AD7315B0257600DCB13C /* Debug */,
+				DA77AD7415B0257600DCB13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA77AD4B15B0257500DCB13C /* Project object */;
+}
