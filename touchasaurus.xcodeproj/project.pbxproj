@@ -22,13 +22,13 @@
 		DA77AD5815B0257600DCB13C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DA77AD5A15B0257600DCB13C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DA77AD5C15B0257600DCB13C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DA77AD6015B0257600DCB13C /* touchasaurus-Info.plist */ = {isa = PBXFileReference; path = "touchasaurus-Info.plist"; sourceTree = "<group>"; };
+		DA77AD6015B0257600DCB13C /* touchasaurus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "touchasaurus-Info.plist"; sourceTree = "<group>"; };
 		DA77AD6215B0257600DCB13C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA77AD6415B0257600DCB13C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DA77AD6615B0257600DCB13C /* touchasaurus-Prefix.pch */ = {isa = PBXFileReference; path = "touchasaurus-Prefix.pch"; sourceTree = "<group>"; };
-		DA77AD6715B0257600DCB13C /* PWAppDelegate.h */ = {isa = PBXFileReference; path = PWAppDelegate.h; sourceTree = "<group>"; };
+		DA77AD6615B0257600DCB13C /* touchasaurus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "touchasaurus-Prefix.pch"; sourceTree = "<group>"; };
+		DA77AD6715B0257600DCB13C /* PWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PWAppDelegate.h; sourceTree = "<group>"; };
 		DA77AD6815B0257600DCB13C /* PWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PWAppDelegate.m; sourceTree = "<group>"; };
-		DA77AD6A15B0257600DCB13C /* PWViewController.h */ = {isa = PBXFileReference; path = PWViewController.h; sourceTree = "<group>"; };
+		DA77AD6A15B0257600DCB13C /* PWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PWViewController.h; sourceTree = "<group>"; };
 		DA77AD6B15B0257600DCB13C /* PWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PWViewController.m; sourceTree = "<group>"; };
 		DA77AD6E15B0257600DCB13C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PWViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
